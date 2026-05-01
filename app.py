@@ -191,16 +191,16 @@ st.markdown(
 # Title
 st.markdown('<p class="main-header">⏱️ Timesheet Processor</p>', unsafe_allow_html=True)
 
-# Sidebar
-with st.sidebar:
-    st.markdown("### 📋 Configuration")
-    st.markdown("---")
+# # Sidebar
+# with st.sidebar:
+#     st.markdown("### 📋 Configuration")
+#     st.markdown("---")
 
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        st.markdown("**Version:** 2.0.1")
-    with col2:
-        st.markdown("**Status:** ✅ Active")
+#     col1, col2 = st.columns([1, 1])
+#     with col1:
+#         st.markdown("**Version:** 2.0.1")
+#     with col2:
+#         st.markdown("**Status:** ✅ Active")
 
 # Main content
 tab1, tab2, tab3 = st.tabs(
@@ -208,7 +208,7 @@ tab1, tab2, tab3 = st.tabs(
 )
 
 with tab1:
-    st.markdown("### Step 1: Upload Your File")
+    st.markdown("### Upload Your File")
 
     col1, col2 = st.columns([2, 1])
 
@@ -509,7 +509,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: #888; font-size: 0.85rem;'>
-        <p>✨ Premium Timesheet Processor v2.0.1 | Built with Streamlit</p>
+        <p>Cilans Timesheet Processor v1.0</p>
     </div>
 """,
     unsafe_allow_html=True,
